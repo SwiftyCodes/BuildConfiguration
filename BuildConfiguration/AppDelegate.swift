@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        setDomainEnvironment()
         return true
     }
 
@@ -40,7 +40,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
-
+    
+    //MARK: Sheme Settings
+    func setDomainEnvironment(){
+        #if DEV
+            serverEndPointUrl = "www.youtube.com"
+        #elseif PROD
+            serverEndPointUrl = "www.google.com"
+        #elseif STAGING
+            serverEndPointUrl = "www.gmail.com"
+        #endif
+    }
 }
+
+
 

@@ -12,6 +12,7 @@
 		75655654231AC61A0033695B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75655652231AC61A0033695B /* Main.storyboard */; };
 		75655656231AC61C0033695B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75655655231AC61C0033695B /* Assets.xcassets */; };
 		75655659231AC61C0033695B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75655657231AC61C0033695B /* LaunchScreen.storyboard */; };
+		75655663231AE0DF0033695B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75655662231AE0DF0033695B /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		75655655231AC61C0033695B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75655658231AC61C0033695B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7565565A231AC61C0033695B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75655662231AE0DF0033695B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		7565564D231AC61A0033695B /* BuildConfiguration */ = {
 			isa = PBXGroup;
 			children = (
+				75655662231AE0DF0033695B /* Constants.swift */,
 				7565564E231AC61A0033695B /* AppDelegate.swift */,
 				75655650231AC61A0033695B /* ViewController.swift */,
 				75655652231AC61A0033695B /* Main.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				75655651231AC61A0033695B /* ViewController.swift in Sources */,
 				7565564F231AC61A0033695B /* AppDelegate.swift in Sources */,
+				75655663231AE0DF0033695B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +293,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				OTHER_SWIFT_FLAGS = DBatman;
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AppAttack.Batman;
 				PRODUCT_NAME = Batman;
 				SWIFT_VERSION = 4.2;
@@ -308,7 +312,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				OTHER_SWIFT_FLAGS = DSuperman;
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AppAttack.Superman;
 				PRODUCT_NAME = Superman;
 				SWIFT_VERSION = 4.2;
@@ -382,7 +386,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				OTHER_SWIFT_FLAGS = DStaging;
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AppAttack.Staging;
 				PRODUCT_NAME = Spiderman;
 				SWIFT_VERSION = 4.2;

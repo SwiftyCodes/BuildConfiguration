@@ -13,6 +13,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let config = Bundle.main.object(forInfoDictionaryKey: "Config") as! String
+        let bundleID = Bundle.main.bundleIdentifier
+        print("serverEndPointUrl : \(serverEndPointUrl)")
+        print("Config : \(config)")
+        print("Bundle ID : \(String(describing: bundleID!))")
     }
 
 
