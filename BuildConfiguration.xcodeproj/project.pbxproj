@@ -289,6 +289,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = DBatman;
 				PRODUCT_BUNDLE_IDENTIFIER = com.AppAttack.Batman;
 				PRODUCT_NAME = Batman;
 				SWIFT_VERSION = 4.2;
@@ -307,6 +308,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = DSuperman;
 				PRODUCT_BUNDLE_IDENTIFIER = com.AppAttack.Superman;
 				PRODUCT_NAME = Superman;
 				SWIFT_VERSION = 4.2;
@@ -380,6 +382,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = DStaging;
 				PRODUCT_BUNDLE_IDENTIFIER = com.AppAttack.Staging;
 				PRODUCT_NAME = Spiderman;
 				SWIFT_VERSION = 4.2;
