@@ -290,7 +290,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.AppAttack.BuildConfiguration;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Batman;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -308,7 +308,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.AppAttack.BuildConfiguration;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Superman;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -381,7 +381,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.AppAttack.BuildConfiguration;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Spiderman;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
